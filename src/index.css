@@ -1,0 +1,29 @@
+@import "tailwindcss";
+/* override Tailwind conflicts */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #585757;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #878d8c;
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   
+    .no-scrollbar {
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+  }
+}
