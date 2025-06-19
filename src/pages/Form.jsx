@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../componenet/Header";
-import Formfield from "../componenet/formfield";
+import FormField from "../componenet/FormField1";
 
 
 const Form = () => {
@@ -9,7 +9,7 @@ const Form = () => {
       <div className="max-w-6xl mx-auto ">
         <Header />
         <div className=" p-2 md:p-8"></div>
-        <Formfield/>
+        <FormField/>
       </div>
     </div>
   );
