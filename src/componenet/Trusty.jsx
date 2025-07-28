@@ -10,7 +10,7 @@ import quote1 from "../img/quote2.png";
 const Trusty = () => {
   return (
     <div className="flex flex-col pt-1 p-4 pb-0 gap-4  px-4  max-w-7xl mx-auto my-8">
-      <div className="w-1/4  bg-gray-200 py-8 rounded-t-2xl p-1 px-3 translate-y-9 ">
+      <div className="w-1/4 hidden lg:block bg-gray-200 py-8 rounded-t-2xl p-1 px-3 translate-y-9 ">
         <div className="flex justify-start items-center gap-3">
           <img src={quote1} alt="" className="w-4" />
           <span className="text-xs">Tested & Trusted</span>
